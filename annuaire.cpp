@@ -1,8 +1,8 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
 #include "../include/annuaire.h"
+
 using namespace std;
 
 annuaire::annuaire()
