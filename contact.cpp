@@ -1,4 +1,4 @@
-#include "../include/contact.h"
+#include "contact.h"
 #include <stdlib.h>
 #include <stdio.h>
 contact::contact()

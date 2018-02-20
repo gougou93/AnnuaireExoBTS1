@@ -1,24 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
-#include "./include/annuaire.h"
-#include "./include/contact.h"
+#include "annuaire.h"
+
 using namespace std;
 
 int main()
 {
     annuaire annu;
-    int choixMenu, nombreContacts;
+    int choixMenu;
+    int i = 0;
     do {
-        printf("Menu\n1:Ajouter contact\n2:Afficher contacts\n0:Quitter\n");
+        printf("\nMenu\n1:Ajouter contact\n2:Afficher contacts\n0:Quitter\n");
         do {
             scanf("%d",&choixMenu);
         }while(choixMenu!=1 && choixMenu!=2 && choixMenu!=0);
         if(choixMenu==1)
         {
             contact a;
-            annu.ajouter(contact.a);
-            nombreContacts++;
+            annu.ajouter(a);
+            annu.tab[i] = a;
+            i++;
         }
         if(choixMenu==2)
         {

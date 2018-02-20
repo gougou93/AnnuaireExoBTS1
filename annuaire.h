@@ -11,7 +11,7 @@ class annuaire
         contact tab[100];
         void ajouter(contact);
         void afficher();
-
+        int nombreContacts =0;
 };
 
 
