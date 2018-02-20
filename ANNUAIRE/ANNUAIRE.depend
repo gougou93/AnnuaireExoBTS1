@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1518969182 source:c:\users\gougou\desktop\exercices c\annuaire\src\contact.cpp
+	"../include/contact.h"
+	<stdlib.h>
+	<stdio.h>
+
+1519128435 c:\users\gougou\desktop\exercices c\annuaire\include\contact.h
+	<iostream>
+	<stdio.h>
+
+1519130385 source:c:\users\gougou\desktop\exercices c\annuaire\src\annuaire.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"../include/annuaire.h"
+
+1519130313 c:\users\gougou\desktop\exercices c\annuaire\include\annuaire.h
+	"contact.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+
+1519130511 source:c:\users\gougou\desktop\exercices c\annuaire\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"./include/annuaire.h"
+
