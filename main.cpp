@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
-#include "../Headers/include/annuaire.h"
-#include "../Headers/include/contact.h"
+#include "./include/annuaire.h"
+#include "./include/contact.h"
 using namespace std;
 
 int main()
