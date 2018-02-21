@@ -9,7 +9,7 @@ class annuaire
     public:
         annuaire();
         contact tab[100];
-        void ajouter(contact);
+        contact ajouter();
         void afficher();
         int nombreContacts =0;
 };

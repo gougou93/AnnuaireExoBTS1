@@ -18,8 +18,8 @@ int main()
         if(choixMenu==1)
         {
             contact a;
-            annu.ajouter(a);
-            annu.tab[i] = a;
+
+            annu.tab[i] = annu.ajouter();
             i++;
         }
         if(choixMenu==2)

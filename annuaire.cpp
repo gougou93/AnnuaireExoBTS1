@@ -10,16 +10,18 @@ annuaire::annuaire()
 
 }
 
-void annuaire::ajouter(contact c)
+contact annuaire::ajouter()
 {
+    contact c;
     printf("Entrez le nom: ");
-    scanf("%s", &c.nom);
+    cin >> c.nom;
     printf("Entrez le prenom: ");
-    scanf("%s",&c.prenom);
+    cin >> c.prenom;
     printf("Entrez le numero: ");
-    scanf("%s",&c.telephone);
+    cin >> c.telephone;
 
     nombreContacts++;
+    return c;
 }
 
 void annuaire::afficher()

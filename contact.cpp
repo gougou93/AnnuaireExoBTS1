@@ -1,6 +1,7 @@
 #include "contact.h"
 #include <stdlib.h>
 #include <stdio.h>
+using namespace std;
 contact::contact()
 {
     //ctor
@@ -8,5 +9,5 @@ contact::contact()
 
 void contact::afficherContact()
 {
-    printf("Nom: %s Prenom: %s Telephone: %s\n", nom, prenom, telephone);
+    cout << "Nom: " << nom << " Prenom: "<< prenom<<" Numero: " << telephone << endl;
 }
